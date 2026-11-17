@@ -1,0 +1,23 @@
+[
+  {
+    "source": "google_ads",
+    "location": "austin",
+    "service_type": "plumbing",
+    "account_id": "brand-a",
+    "pipeline_id": "new-leads"
+  },
+  {
+    "source": "facebook",
+    "location": "*",
+    "service_type": "*",
+    "account_id": "brand-b",
+    "pipeline_id": "new-leads"
+  },
+  {
+    "source": "*",
+    "location": "*",
+    "service_type": "*",
+    "account_id": "brand-a",
+    "pipeline_id": "new-leads"
+  }
+]
