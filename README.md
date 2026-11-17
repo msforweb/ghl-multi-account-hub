@@ -16,7 +16,7 @@ flowchart LR
   Match --> Master[(Contacts, companies, leads, payments)]
   Match --> Mock[GHL API v2 or mock adapter]
   Master --> Report[Reporting API]
-  Slack[Slack webhook] <--|failed-event alert| API
+  API -->|failed-event alert| Slack[Slack webhook]
 ```
 
 See the [account addition guide](./docs/adding-an-account.md) for the short onboarding checklist.
